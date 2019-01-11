@@ -68,7 +68,7 @@ p {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .container {
     width: 800px;
@@ -219,9 +219,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About */
+
+.about-top-content {
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container {
+    margin-bottom: 10px;
+}
 
 .about-middle-content {
     display: flex;
-    flex-direction: column;
-    width: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.about-middle-content .about-text-content {
+    width: 400px;
+    padding: 2%;
+}
+
+
+.about-text-content button {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+hr {
+   margin: 20px 40px 0 0;
+   width: 360px;
+   border-top: 1px dashed black;
+}
+
+.about-bottom-content {
+   padding: 2%;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   font-weight: 
+}
+
